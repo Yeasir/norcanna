@@ -1,0 +1,492 @@
+@media (max-width: 767px) {
+  .header-account-page .form-control{
+    margin-bottom: 10px;
+  }
+  .register-form{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 400px;
+    white-space: nowrap;
+  }
+  .modal.register-modal .btn{
+    width: 100%;
+  }
+  .register-wrapper{
+    .font-side-fix img{
+     width: 100%;
+    }
+  }
+   .header.menu-opened .mini-cart-btn, .header.cart-opened .close-btn{
+     color: $yellow;
+   }
+  .header .header-top:after{
+    width: 100%;
+    z-index: -1;
+  }
+  .header .header-top:before{
+    display: none;
+  }
+  .no-order-yet{
+    padding: 0 15px;
+    >div{
+      width: 100%;
+    }
+    .recommended-btn{
+      .btn{
+        font-size: inherit;
+        margin: 5px 0;
+      }
+      text-align: right;
+      .ml-lg-5{
+        margin-left:  0 !important;
+      }
+    }
+  }
+  .woocommerce-account .woocommerce-MyAccount-content {
+    width: 100%;
+    overflow: scroll;
+  }
+  .woocommerce-orders-table__cell-order-status:before {
+    width: 85%;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content table{
+    width: 800px;
+  }
+  .myacount-area .container-fluid {
+    padding: 0 15px;
+  }
+  .woocommerce-account .woocommerce-MyAccount-navigation{
+    min-height: inherit;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .order-pagination-status {
+    margin-bottom: 10px;
+  }
+  .woocommerce-MyAccount-navigation-link--customer-logout{
+    padding-top: 40px;
+  }
+  .header-account-page .container-fluid {
+    padding: 15px;
+  }
+  .header{
+    &.cart-opened .top-delivey-services {
+      left: 0;
+      z-index: 10;
+    }
+    .mini-cart .mini-cart-wrapper {
+      padding: 35px 25px;
+    }
+    .menu-icon{
+      margin-right: 35px;
+    }
+    .pt-260 {
+      padding-top: 60px;
+    }
+    .social-icons-services h3 {
+      padding-bottom: 25px;
+    }
+    .social-icons {
+      text-align: center;
+      a{
+        color: $white;
+      }
+      li{
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
+    &.menu-opened .top-delivey-services{
+      left: 0;
+      top: 0;
+      z-index: 10;
+    }
+    .main-menu .header-search, .mini-cart .header-search {
+      margin-bottom: 20px;
+    }
+    .main-menu .menu-logo, .mini-cart .menu-logo{
+      padding-bottom: 30px;
+    }
+    .main-menu .nav-wrapper a, .mini-cart .nav-wrapper a {
+      padding: 15px 15px;
+    }
+    .account {
+      margin-top: 35px;
+      margin-bottom: 15px;
+    }
+
+    .menu-icon {
+      margin-right: 42px;
+    }
+    .main-menu, .mini-cart {
+      min-height: inherit;
+      width: 440px;
+    }
+  }
+
+  .modal.contact-us-model .modal-body .container > .row > div {
+    padding-left: 45px;
+    padding-right: 15px;
+  }
+  .modal.contact-us-model .modal-body:before {
+    width: 100%;
+    height: 58%;
+  }
+  .modal.contact-us-model .form-control{
+    width: 100%;
+  }
+  .modal.contact-us-model .container {
+    max-width: 100%;
+  }
+  .modal.contact-us-model .modal-body{
+    background-position: bottom center;
+  }
+  .popup-contact-info{
+    padding-top: 110px;
+  }
+  .modal.contact-us-model .modal-lg{
+    margin: 20px 0 0;
+  }
+}
+@media (max-width: 1200px){
+  .header  .main-menu{
+    .user-logged-in{
+      left: 15px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .header  .main-menu,.header  .mini-cart{
+    .user-logged-in {
+      span{
+        display: none;
+      }
+    }
+  }
+  .service-message-model .modal-body {
+    padding:35px 10px;
+  }
+  .service-message-model-avaiable .modal-body  {
+    padding:70px 10px;
+  }
+
+  .modal.register-modal .progress-bar-fix li {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px !important;
+  }
+  .modal.register-modal .progress-bar-fix li:after {
+    margin-top: 10px;
+  }
+  .modal.advanced-search-model .search-product-items .product-thumbs span,.modal.advanced-search-model .fa-style .fa,.header-search{
+    display: none;
+  }
+
+  .header .main-menu .main-menu-wrapper, .header .main-menu .mini-cart-wrapper, .header .mini-cart .main-menu-wrapper, .header .mini-cart .mini-cart-wrapper{
+    padding: 35px 15px;
+  }
+
+  .header {
+    .menu-icon{
+      margin-right: 15px;
+    }
+    h3 {
+      margin-top: 15px;
+      line-height: inherit;
+    }
+    .main-menu, .mini-cart {
+      width: 100%;
+      height: 100%;
+    }
+    &.menu-opened .close-btn,  &.cart-opened .mini-cart-btn{
+      right: 35px;
+      top: 10px;
+    }
+
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .register-modal .modal-content-wrapper {
+    padding: 20px;
+  }
+  .header-search{
+    display: none;
+  }
+  .header-account-page .row>.text-right{
+    position: absolute;
+    top: 16px;
+    right: 0;
+  }
+  .search-order{
+    margin-top: 15px;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content {
+    width: 100%;
+  }
+  .delivered-processed a:first-child {
+    margin-right: 5px;
+  }
+  .footer .footer-menu li{
+    width: 50%;
+  }
+  .footer .footer-bottom .social-icons a {
+    padding: 0 15px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .recommended-title-price{
+    min-width: 150px;
+  }
+  .modal.contact-us-model .modal-body .container > .row > div {
+    padding-left: 45px;
+    padding-right: 15px;
+  }
+  .modal.contact-us-model .modal-body:before {
+    width: 67%;
+  }
+  .modal.contact-us-model .form-control{
+    width: 100%;
+  }
+  .modal.contact-us-model .container {
+    max-width: 100%;
+  }
+
+  .header {
+
+    .mini-cart .mini-cart-wrapper {
+      padding: 35px 25px;
+    }
+    &.cart-opened{
+      .scroll-down-arrow{
+        right: 53%;
+      }
+      .top-delivey-services{
+        left: 15%;
+        top: -30px;
+      }
+    }
+
+
+    &.menu-opened .top-delivey-services{
+      left: 480px;
+      top: -30px;
+    }
+    .main-menu .header-search, .mini-cart .header-search {
+      margin-bottom: 20px;
+    }
+    .main-menu .menu-logo, .mini-cart .menu-logo{
+      padding-bottom: 30px;
+    }
+    .main-menu .nav-wrapper a, .mini-cart .nav-wrapper a {
+      padding: 15px 15px;
+    }
+    .account {
+      margin-top: 35px;
+      margin-bottom: 15px;
+    }
+
+    .menu-icon {
+      margin-right: 60px;
+    }
+    .main-menu, .mini-cart {
+      min-height: inherit;
+      width: 440px;
+    }
+  }
+  .no-order-yet{
+    padding: 0 15px;
+    .recommended-btn{
+      .btn{
+        font-size: inherit;
+        margin: 5px 0;
+      }
+      text-align: right;
+      .ml-lg-5{
+        margin-left:  0 !important;
+      }
+    }
+  }
+  .myacount-area .container-fluid {
+    padding: 0 15px;
+  }
+  .woocommerce-account .woocommerce-MyAccount-navigation li a, .woocommerce-account .woocommerce-MyAccount-navigation li.is-active a{
+    padding: 15px 40px;
+  }
+  .woocommerce-MyAccount-navigation li > a:before{
+    left: 10px;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content {
+    width: 67%;
+  }
+  .woocommerce-account .woocommerce-MyAccount-navigation {
+    max-width: 200px;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content {
+    width: 65%;
+    overflow: scroll;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content table{
+    width: 800px;
+  }
+  .woocommerce-orders-table__cell-order-status:before {
+    width: 75%;
+  }
+  .header-account-page .container-fluid {
+    padding: 15px 30px;
+  }
+  .header{
+    .header-banner{
+      display: none;
+    }
+    .pt-260 {
+      padding-top: 60px;
+    }
+    .social-icons-services h3 {
+      padding-bottom: 25px;
+    }
+    .social-icons {
+      text-align: center;
+      li{
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .recommended-title-price{
+    min-width: 150px;
+  }
+  .modal.contact-us-model .modal-body .container > .row > div {
+    padding-left: 45px;
+    padding-right: 15px;
+  }
+  .modal.contact-us-model .modal-body:before {
+    width: 59%;
+  }
+  .modal.contact-us-model .form-control{
+    width: 100%;
+  }
+  .header {
+
+    &.cart-opened{
+      .scroll-down-arrow{
+        right: 50%;
+      }
+      .top-delivey-services{
+        left: 25%;
+      }
+    }
+
+    .mini-cart .mini-cart-wrapper {
+      padding: 35px 25px;
+    }
+    &.menu-opened .top-delivey-services{
+      left: 550px;
+    }
+    .main-menu, .mini-cart{
+      width: 440px;
+    }
+    .main-menu-wrapper,.mini-cart-wrapper{
+      padding: 35px 30px;
+    }
+  }
+  .no-order-yet{
+    padding: 0 15px;
+
+    .recommended-btn{
+      .btn{
+        margin: 5px 0;
+      }
+      text-align: right;
+      .ml-lg-5{
+        margin-left:  0 !important;
+      }
+    }
+  }
+  .woocommerce-account .woocommerce-MyAccount-content {
+    overflow: scroll;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content table{
+    width: 900px;
+  }
+
+  .header-account-page .container-fluid {
+    padding: 15px 30px;
+  }
+
+
+
+  .woocommerce-orders-table tbody tr td:last-child:after, .woocommerce-orders-table tbody tr td:last-child:before, .woocommerce-orders-table tbody tr td:last-child a:after{
+    display: none;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content {
+    width: 65%;
+  }
+  .myacount-area .container-fluid {
+    padding: 0 30px;
+  }
+  .woocommerce-account .woocommerce-MyAccount-navigation {
+    margin-right: 30px;
+  }
+  .woocommerce-orders-table__cell-order-status:before {
+    width: 100%;
+  }
+  .header {
+    .header-banner{
+      max-width: 590px;
+    }
+    .pt-260 {
+      padding-top: 150px;
+    }
+    .social-icons-services h3 {
+      padding-bottom: 25px;
+    }
+    .social-icons {
+      text-align: center;
+      li{
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
+  }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .header {
+    &.cart-opened{
+      .scroll-down-arrow{
+        right: 50%;
+      }
+      .top-delivey-services{
+        left: 25%;
+      }
+    }
+  }
+  .myacount-area .container-fluid {
+    padding: 0 55px;
+  }
+  .woocommerce-orders-table__cell-order-status:before {
+    width: 85%;
+  }
+}

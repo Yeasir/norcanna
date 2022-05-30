@@ -1,0 +1,221 @@
+@media (max-width: 767px) {
+  .modal.advanced-search-model .search-padding {
+    padding: 0 20px;
+  }
+  .single-product-model {
+    .single-product-icon-list li {
+      padding-right: 0;
+      width: 100%;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    .slick-prev {
+      left: 80%;
+    }
+  }
+  .payment-method-model ,.delivery-model {
+    .modal-body {
+      padding: 50px 10px;
+      h2{
+        font-size: 38px;
+      }
+    }
+
+    .custom-btn{
+      width: 100%;
+    }
+
+  }
+  .about-content {
+    .side-bar{
+      min-height: auto;
+    }
+    .content-box {
+      padding: 40px 0;
+    }
+  }
+  .product-category {
+    padding: 50px 0 0 0;
+  }
+  .offer {
+    padding: 70px 0;
+    .category_by{
+     width: 100%;
+    }
+  }
+
+  .details tr > td p, .details tr > td a {
+    margin: 0;
+    font-size: 14px;
+  }
+  .details tr > td .form-control {
+    padding: 10px 30px;
+     max-width: 100%;
+  }
+
+  .modal {
+
+    &.login-modal {
+      .bg-banner img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &.age-verification{
+      .bg-banner img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+
+  .footer {
+    .footer-bottom .social-icons {
+      font-size: 38px;
+    }
+  }
+
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+}
+@media (max-width:320px) {
+  .footer .footer-bottom .social-icons {
+    font-size: 36px;
+  }
+  .footer {
+    .footer-bottom .social-icons {
+      font-size: 28px;
+    }
+  }
+
+  .payment-method-model, .delivery-model {
+    .modal-body h2 {
+      font-size: 32px;
+    }
+  }
+  .categories {
+    .categories-item .item > span {
+      font-size: 20px;
+    }
+  }
+
+  .support {
+    .support-box h4 {
+      font-size: 20px;
+    }
+  }
+  .about-content {
+   .side-bar .side-menu li a {
+     font-size: $base-font-size;
+    }
+     .side-bar .side-menu li.active a {
+      font-size: 16px;
+    }
+    a[aria-expanded="true"] {
+      font-size: $base-font-size;
+    }
+   .mb-0 > a{
+      font-size: $base-font-size;
+    }
+    .card .card-body p {
+      font-size: $base-font-size;
+    }
+  }
+  .common-content h5 {
+    font-size: 30px;
+  }
+
+  .service-message-model-avaiable {
+    ul > li:first-child {
+      margin-right: 16px;
+    }
+    .modal-body {
+      padding: 70px 15px 90px 15px;
+    }
+  }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .modal {
+    .login-wrapper.modal-content-wrapper {
+      padding: 0px 40px;
+    }
+    .age-wrapper.modal-content-wrapper{
+      padding: 0px 40px;
+    }
+    &.login-modal {
+    .bg-banner img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .single-product-model button.button.alt {
+    padding: 14px 10px
+  }
+  .about-content {
+    .side-bar .side-menu li a {
+      padding: 15px 12px;
+    }
+  }
+  .payment-method-model ,.delivery-model{
+     select.form-control{
+       padding: 20px 8px;
+    }
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) white no-repeat 98.5% !important;
+      background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) white no-repeat calc(100% - 5px) !important;
+    }
+  }
+
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .payment-method-model .modal-lg, .modal-xl {
+    max-width: 1143px;
+    margin: 0 auto;
+  }
+  .delivery-model .modal-lg, .modal-xl {
+    max-width: 1143px;
+    margin: 0 auto;
+  }
+  .slider.slider-horizontal {
+    width: 185px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+  .payment-method-model .modal-lg, .modal-xl {
+    max-width: 1143px;
+  }
+  .delivery-model .modal-lg, .modal-xl {
+    max-width: 1143px;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+}
